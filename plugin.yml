@@ -1,0 +1,8 @@
+name: ItemGoCmd
+main: com.github.qianniancc.ItemGoCmd
+version: 2.1
+softdepend: [EasyScoreboards]
+commands:
+  igcreload:
+  igcgive:
+  igclist:

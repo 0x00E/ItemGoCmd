@@ -1,0 +1,31 @@
+lang:
+    NotReloadPerm: "&c&l你没有权限重置插件"
+    ReloadOK: "&a&l重置成功"
+    ReloadError: "&a&l重置失败"
+    NotGivePerm: "&c&l你没有权限给予物品"
+    GiveOK: "&a&l成功获得了一个物品"
+    GiveSB: "&e&lItemGoCmd"
+    textNotItemHand: "&e%cmd%指令需要物品&a[%item%&a]&e来执行&c&l(你必须手持这个物品)"
+#以上为提示信息
+settings:
+  fb:
+    DisplayName: "&e&l萤火之石"
+    #展示名字
+    Lore: "&a&l开启失落大陆的钥匙"
+    #物品描述
+    onLore: true
+    #如果onLore为false即没有lore，false不允许双引号
+    Cmd:
+        - "warp fb"
+        - "warp fb1"
+    #需要物品的指令(支持多个)
+    ItemId: 370
+    #物品ID
+  tpa:
+    DisplayName: "&e&l传送宝石"
+    Lore: "&a&l传送宝石"
+    onLore: true
+    Cmd:
+        - "tpa "
+    #直接前缀筛选
+    ItemId: 280
